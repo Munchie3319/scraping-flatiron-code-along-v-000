@@ -29,3 +29,4 @@ class Scraper
        course.description = post.css("p").text
      end
   end
+end
