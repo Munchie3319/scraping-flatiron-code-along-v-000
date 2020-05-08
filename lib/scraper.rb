@@ -29,4 +29,10 @@ class Scraper
        course.description = post.css("p").text
      end
   end
+
+  def print_courses
+    self.make_courses
+    Course.all.each do |course|
+end
+end
 end
